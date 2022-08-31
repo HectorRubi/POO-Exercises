@@ -1,10 +1,10 @@
 <?php
 class Account {
-  $id = integer;
-  $name = string;
-  $document = string;
-  $email = string;
-  $password = string;
+  public $id;
+  public $name;
+  public $document;
+  public $email;
+  public $password;
 
   function __construct($name, $document) {
     $this->name = $name;
